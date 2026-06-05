@@ -1,0 +1,26 @@
+KB002 — How to Diagnose Slow Browsing
+Purpose:  
+Help technicians identify whether slow browsing is caused by DNS, connectivity, proxy settings, cache, or browser configuration.
+
+🧭 Steps
+Check DNS Resolution  
+Run: Resolve-DnsName www.microsoft.com
+
+Test Internet Connectivity  
+Ping 8.8.8.8 and a website domain.
+
+Check Proxy Settings  
+Run: netsh winhttp show proxy
+
+Check Browser Cache Size  
+Large or corrupted cache slows page loads.
+
+Test in Incognito Mode  
+If it works → extension or profile issue.
+
+Disable Extensions  
+Ad blockers and password managers often cause issues.
+
+🧰 Recommended Tool
+Use the Browser Troubleshooting Script:
+Browser Diagnostics

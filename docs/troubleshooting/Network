@@ -1,0 +1,52 @@
+1️⃣ Network Troubleshooting Workflow
+User symptom: “I can’t access the internet.”
+
+🧩 Step-by-step workflow
+Verify physical/network connection
+
+Check Wi‑Fi/Ethernet status
+
+Confirm airplane mode is off
+
+Check IP configuration
+
+ipconfig /all
+
+Look for missing IP, APIPA (169.x.x.x), or wrong gateway
+
+Test DNS resolution
+
+Resolve-DnsName www.microsoft.com
+
+If fails → DNS issue
+
+Test internet connectivity
+
+Ping 8.8.8.8
+
+Ping www.microsoft.com
+
+Check gateway reachability
+
+Ping default gateway
+
+If unreachable → LAN issue
+
+Check proxy settings
+
+netsh winhttp show proxy
+
+Check firewall/VPN
+
+Disable VPN temporarily
+
+Check firewall rules
+
+🎯 Resolution examples
+Restart DNS Client service
+
+Reset network stack (netsh winsock reset)
+
+Fix incorrect static IP
+
+Remove stuck proxy settings

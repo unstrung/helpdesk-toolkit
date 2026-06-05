@@ -1,0 +1,42 @@
+4️⃣ Printer Troubleshooting Workflow
+User symptom: “Printer is offline” or “Nothing prints.”
+
+🧩 Step-by-step workflow
+Check Print Spooler service
+
+Restart if stuck
+
+Clear print queue
+
+Stuck jobs block all printing
+
+Verify printer IP
+
+Ping printer
+
+If unreachable → network issue
+
+Check printer driver
+
+Wrong driver = offline printer
+
+Check printer port
+
+Ensure TCP/IP port matches printer IP
+
+Check user permissions
+
+Some printers require group membership
+
+Reinstall printer
+
+Use correct driver package
+
+🎯 Resolution examples
+Restart spooler
+
+Fix incorrect printer IP
+
+Reinstall printer with correct driver
+
+Clear corrupted print queue

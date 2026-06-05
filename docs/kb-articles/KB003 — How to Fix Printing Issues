@@ -1,0 +1,23 @@
+KB003 — How to Fix Printing Issues
+Purpose:  
+Provide a repeatable workflow for resolving common printer issues such as offline printers, stuck jobs, spooler failures, and driver problems.
+
+🧭 Steps
+Check Print Spooler Service  
+Restart if stopped or stuck.
+
+Clear Print Queue  
+Delete files in:
+C:\Windows\System32\spool\PRINTERS
+
+Verify Printer IP  
+Ping the printer’s IP address.
+
+Check Printer Port  
+Ensure TCP/IP port matches printer IP.
+
+Check Printer Driver  
+Incorrect drivers cause offline status.
+
+Reinstall Printer  
+Use the correct driver package.

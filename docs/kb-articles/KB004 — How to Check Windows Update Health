@@ -1,0 +1,31 @@
+KB004 — How to Check Windows Update Health
+Purpose:  
+Help technicians diagnose update failures, stuck installations, and systems requiring servicing stack repair.
+
+🧭 Steps
+Check Update History  
+Settings → Windows Update → Update History
+
+Check Servicing Stack  
+Look for repeated failures or rollback loops.
+
+Check Windows Update Service  
+Ensure wuauserv is running.
+
+Check Disk Space  
+Updates fail with < 10% free space.
+
+Check Event Logs  
+Review WindowsUpdateClient logs.
+
+Run DISM Health Check
+
+Code
+DISM /Online /Cleanup-Image /RestoreHealth
+Run SFC Scan
+
+Code
+sfc /scannow
+🧰 Recommended Tool
+Use the PC Health Report Tool to check system readiness:
+PC Health Report

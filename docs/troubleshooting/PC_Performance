@@ -1,0 +1,44 @@
+3️⃣ PC Performance Troubleshooting Workflow
+User symptom: “My computer is slow.”
+
+🧩 Step-by-step workflow
+Check CPU usage
+
+Look for runaway processes
+
+Check RAM usage
+
+Low free RAM = slow apps
+
+Check disk space
+
+Less than 10% free = major slowdown
+
+Check startup apps
+
+Teams, OneDrive, Discord, Steam, etc.
+
+Check Windows Update status
+
+Pending updates slow login and apps
+
+Check key services
+
+Workstation
+
+Server
+
+Windows Update
+
+Check for disk errors
+
+chkdsk /scan
+
+🎯 Resolution examples
+Clear temp files
+
+Disable unnecessary startup apps
+
+Restart to complete updates
+
+Recommend RAM upgrade

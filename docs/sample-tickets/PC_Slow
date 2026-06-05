@@ -1,0 +1,41 @@
+Ticket 3 — PC Running Slow
+User: Maria L.
+Department: HR
+Issue: “My computer takes forever to open apps.”
+
+🔍 Technician Notes
+Symptoms consistent with low RAM or high CPU
+
+Possible disk space issue
+
+🧪 Troubleshooting Steps
+Ran PC Health Report Tool
+
+Checked CPU Load
+
+Checked Memory Usage
+
+Checked Disk Space
+
+Reviewed startup apps
+
+Verified Windows Update status
+
+📊 Findings
+RAM: 7.8 GB used / 8 GB total
+
+Disk: 4 GB free on C:
+
+Windows Update pending restart
+
+✅ Resolution
+Cleared 12 GB of temp files
+
+Disabled Teams auto‑start
+
+Restarted system to complete updates
+
+Performance returned to normal.
+
+📌 Preventative Recommendation
+Recommend upgrading to 16 GB RAM.

@@ -1,0 +1,30 @@
+Ticket 2 — Browser Not Loading Pages
+User: Kevin R.
+Department: Customer Support
+Issue: “Chrome keeps spinning. Edge works fine.”
+
+🔍 Technician Notes
+Issue isolated to Chrome
+
+Likely cache, profile corruption, or extension issue
+
+🧪 Troubleshooting Steps
+Ran Browser Diagnostics Script
+
+Verified DNS Resolution
+
+Checked Browser Cache Size
+
+Disabled all Chrome extensions
+
+Tested in Incognito mode
+
+✅ Resolution
+Chrome profile was corrupted. Renamed:
+
+Code
+%LOCALAPPDATA%\Google\Chrome\User Data\Default → Default.old
+Chrome recreated a clean profile and browsing returned to normal.
+
+📌 Preventative Recommendation
+Encourage user to limit unnecessary extensions.

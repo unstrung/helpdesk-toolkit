@@ -1,0 +1,33 @@
+Ticket 1 — Network Connectivity Issue
+User: Sarah M.
+Department: Finance
+Issue: “I can’t access any websites. Teams works but nothing loads in Chrome.”
+
+🔍 Technician Notes
+Verified user is connected to Wi‑Fi
+
+Teams functioning suggests partial connectivity
+
+Browser unable to resolve domains
+
+🧪 Troubleshooting Steps
+DNS Resolution test using Resolve-DnsName
+
+Ping Tests to 8.8.8.8 and microsoft.com
+
+Proxy Settings checked via netsh winhttp show proxy
+
+Cleared Chrome cache
+
+Flushed DNS: ipconfig /flushdns
+
+✅ Resolution
+DNS client service was stopped. Restarted:
+
+Code
+net stop dnscache
+net start dnscache
+Browser immediately began resolving domains.
+
+📌 Preventative Recommendation
+Add DNS Client service to monitoring list.

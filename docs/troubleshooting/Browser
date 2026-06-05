@@ -1,0 +1,42 @@
+2️⃣ Browser Troubleshooting Workflow
+User symptom: “Websites won’t load” or “Chrome keeps spinning.”
+
+🧩 Step-by-step workflow
+Check DNS resolution
+
+If DNS fails → browser won’t load anything
+
+Test internet connectivity
+
+Ping 8.8.8.8
+
+Ping website domain
+
+Check proxy settings
+
+Incorrect proxy = instant browser failure
+
+Check browser cache size
+
+Large or corrupted cache slows everything
+
+Test in Incognito mode
+
+If it works → extension or profile issue
+
+Disable extensions
+
+Ad blockers and password managers often break pages
+
+Check default browser settings
+
+Wrong associations cause links to fail
+
+🎯 Resolution examples
+Clear cache
+
+Reset Chrome profile
+
+Disable problematic extensions
+
+Fix proxy settings

@@ -1,0 +1,34 @@
+Ticket 4 — Printer Not Responding
+User: David P.
+Department: Sales
+Issue: “Printer says offline even though it’s plugged in.”
+
+🔍 Technician Notes
+Common issue: spooler crash, driver issue, or network printer offline
+
+User attempted to reinstall printer with no success
+
+🧪 Troubleshooting Steps
+Followed Printer Troubleshooting Workflow
+
+Verified Print Spooler Service
+
+Cleared print queue
+
+Checked printer IP and pinged device
+
+Reinstalled printer using correct TCP/IP port
+
+🖨️ Findings
+Print Spooler service was stuck in “Stopping” state.
+
+✅ Resolution
+Force‑restarted spooler:
+
+Code
+Stop-Service spooler -Force
+Start-Service spooler
+Printer immediately came online.
+
+📌 Preventative Recommendation
+Update printer driver package across department.

@@ -1,0 +1,31 @@
+KB001 — How to Collect Event Logs for Troubleshooting
+Purpose:  
+Provide technicians with a standardized method for collecting Windows event logs when diagnosing crashes, login failures, update issues, or system instability.
+
+🧭 Steps
+Open Event Viewer  
+Press Win + R, type eventvwr.msc, press Enter.
+
+Export System Logs  
+Navigate to:
+Windows Logs → System → Save All Events As…
+
+Export Application Logs  
+Navigate to:
+Windows Logs → Application → Save All Events As…
+
+Export Security Logs  
+Navigate to:
+Windows Logs → Security → Save All Events As…
+
+Export Windows Update Logs  
+Navigate to:
+Applications and Services Logs → Microsoft → Windows → WindowsUpdateClient → Operational
+
+Export Crash / WER Logs  
+Navigate to:
+Applications and Services Logs → Microsoft → Windows → WER-SystemErrorReporting → Operational
+
+🧰 Recommended Tool
+Use the Event Log Collector Script for automated export:
+Event Log Collector
